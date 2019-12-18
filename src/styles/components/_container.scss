@@ -1,0 +1,26 @@
+.page-container {
+  margin: 20px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border-radius: 20px;
+  border: outset;
+  margin: 20px;
+  padding: 2px 6px;
+  min-width: 500px;
+  &:active {
+    border: inset;
+    padding: 4px 4px 0px 8px;
+  }
+}
+.user-card {
+  @extend .card;
+  display: flex;
+}
+.repo-card {
+  @extend .card;
+}

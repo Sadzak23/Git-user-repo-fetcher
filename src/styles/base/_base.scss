@@ -1,0 +1,33 @@
+* {
+  // Disable select
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  // Disable drag
+  -webkit-user-drag: none;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: $body-color;
+}
+body {
+  color: $off-white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+button {
+  &:focus {
+    outline: none;
+  }
+}
+input {
+  &:focus {
+    outline: none;
+    outline-offset: none;
+  }
+}

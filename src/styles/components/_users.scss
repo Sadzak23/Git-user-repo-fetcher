@@ -1,0 +1,22 @@
+.user-avatar {
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.user-info {
+  text-align: left;
+  margin-left: 10px;
+  p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-align: left;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1.3em;
+    height: 2.6em;
+    width: 290px;
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  align-items: center;
+  background-color: $header-color;
+  border-bottom: 2px solid;
+  display: flex;
+  height: 75px;
+  padding: 0 100px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  h1 {
+    margin: 0;
+  }
+  button {
+    background: none;
+    border: none;
+    color: white;
+  }
+}

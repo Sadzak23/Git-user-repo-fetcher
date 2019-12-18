@@ -1,0 +1,17 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  input {
+    border-radius: 20px;
+    padding: 0 15px;
+    margin-right: 10px;
+  }
+  button {
+    background: $light-blue;
+    border-radius: 20px;
+    color: white;
+    font-size: $m-size;
+    padding: $s-size;
+    text-decoration: none;
+  }
+}
